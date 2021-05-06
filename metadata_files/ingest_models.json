@@ -1,0 +1,147 @@
+[
+  {
+    "builder_type": "GsdModelBuilderV01",
+    "docType": "ingest",
+    "type": "MD",
+    "version": "V01",
+    "model": "HRRR",
+    "id": "MD:V01:METAR:HRRR:ingest",
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch}; select m.time, m.fcst_len, m.sta_id as madis_id, m.temp, m.press  as slp, m.dp, m.rh, m.wd, m.ws, m.vgtyp, c.ceil, v.vis100 as vis, m.sta_id, s.id, s.net, s.name from madis3.HRRRqp m, madis3.stations as s, ceiling2.HRRR c, visibility.HRRR v where 1 = 1 AND m.time >= @FirstTime and m.time <= @LastTime AND m.time = c.time AND m.time = v.time and m.sta_id = c.madis_id and m.sta_id = v.madis_id and m.fcst_len = c.fcst_len and m.fcst_len = v.fcst_len and m.sta_id = s.id and s.net = 'METAR' order by time, fcst_len, name;",
+    "subset": "METAR",
+    "template": {
+      "dataSourceId": "HRRR",
+      "docType": "model",
+      "model": "HRRR",
+      "fcstLen": "*fcst_len",
+      "fcstValidBeg": "*{ISO}time",
+      "fcstValidEpoch": "*time",
+      "id": "DD:V01:METAR:HRRR:*time:*fcst_len",
+      "subset": "METAR",
+      "type": "DD",
+      "version": "V01",
+      "data": {
+        "*name": {
+          "Ceiling": "*ceil",
+          "DewPoint": "*dp",
+          "RH": "*rh",
+          "Reported Time": "*time",
+          "Surface Pressure": "*slp",
+          "Temperature": "*temp",
+          "VGTYP": "*vgtyp",
+          "Visibility": "*vis",
+          "WD": "*wd",
+          "WS": "*ws",
+          "name": "*name"
+        }
+      }
+    }
+  },
+  {
+    "builder_type": "GsdModelBuilderV01",
+    "docType": "ingest",
+    "type": "MD",
+    "version": "V01",
+    "model": "HRRR_OPS",
+    "id": "MD:V01:METAR:HRRR_OPS:ingest",
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch}; select m.time, m.fcst_len, m.sta_id as madis_id, m.temp, m.press  as slp, m.dp, m.rh, m.wd, m.ws, m.vgtyp, c.ceil, v.vis100 as vis, m.sta_id, s.id, s.net, s.name from madis3.HRRR_OPSqp m, madis3.stations as s, ceiling2.HRRR_OPS c, visibility.HRRR_OPS v where 1 = 1 AND m.time >= @FirstTime and m.time <= @LastTime AND m.time = c.time AND m.time = v.time and m.sta_id = c.madis_id and m.sta_id = v.madis_id and m.fcst_len = c.fcst_len and m.fcst_len = v.fcst_len and m.sta_id = s.id and s.net = 'METAR' order by time, fcst_len, name;",
+    "subset": "METAR",
+    "template": {
+      "dataSourceId": "HRRR_OPS",
+      "docType": "model",
+      "model": "HRRR_OPS",
+      "fcstValidBeg": "*{ISO}time",
+      "fcstValidEpoch": "*time",
+      "id": "DD:V01:METAR:HRRR_OPS:*time:*fcst_len",
+      "subset": "METAR",
+      "type": "DD",
+      "version": "V01",
+      "data": {
+        "*name": {
+          "Ceiling": "*ceil",
+          "DewPoint": "*dp",
+          "RH": "*rh",
+          "Reported Time": "*time",
+          "Surface Pressure": "*slp",
+          "Temperature": "*temp",
+          "VGTYP": "*vgtyp",
+          "Visibility": "*vis",
+          "WD": "*wd",
+          "WS": "*ws",
+          "name": "*name"
+        }
+      }
+    }
+  },
+  {
+    "builder_type": "GsdModelBuilderV01",
+    "docType": "ingest",
+    "type": "MD",
+    "version": "V01",
+    "model": "RAP_OPS",
+    "id": "MD:V01:METAR:RAP_OPS:ingest",
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch}; select m.time, m.fcst_len, m.sta_id as madis_id, m.temp, m.press  as slp, m.dp, m.rh, m.wd, m.ws, m.vgtyp, c.ceil, m.sta_id, s.id, s.net, s.name from madis3.RAP_NCEP_fullqp m, madis3.stations as s, ceiling2.RAP_OPS c, where 1 = 1 AND m.time >= @FirstTime and m.time <= @LastTime AND m.time = c.time and m.sta_id = c.madis_id and m.fcst_len = c.fcst_len and m.sta_id = s.id and s.net = 'METAR' order by time, fcst_len, name;",
+    "subset": "METAR",
+    "template": {
+      "dataSourceId": "RAP_OPS",
+      "docType": "model",
+      "model": "RAP_OPS",
+      "fcstLen": "*fcst_len",
+      "fcstValidBeg": "*{ISO}time",
+      "fcstValidEpoch": "*time",
+      "id": "DD:V01:METAR:RAP_OPS:*time:*fcst_len",
+      "subset": "METAR",
+      "type": "DD",
+      "version": "V01",
+      "data": {
+        "*name": {
+          "Ceiling": "*ceil",
+          "DewPoint": "*dp",
+          "RH": "*rh",
+          "Reported Time": "*time",
+          "Surface Pressure": "*slp",
+          "Temperature": "*temp",
+          "VGTYP": "*vgtyp",
+          "WD": "*wd",
+          "WS": "*ws",
+          "name": "*name"
+        }
+      }
+    }
+  },
+  {
+    "builder_type": "GsdModelBuilderV01",
+    "docType": "ingest",
+    "type": "MD",
+    "version": "V01",
+    "model": "RRFS_dev1",
+    "id": "MD:V01:METAR:RRFS_dev1:ingest",
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch}; select m.time, m.fcst_len, m.sta_id as madis_id, m.temp, m.press  as slp, m.dp, m.rh, m.wd, m.ws, c.ceil, v.vis100 as vis, m.sta_id, s.id, s.net, s.name from madis3.RRFS_dev1qp m, madis3.stations as s, ceiling2.RRFS_dev1 c, visibility.RRFS_dev1 v where 1 = 1 AND m.time >= @FirstTime and m.time <= @LastTime AND m.time = c.time AND m.time = v.time and m.sta_id = c.madis_id and m.sta_id = v.madis_id and m.fcst_len = c.fcst_len and m.fcst_len = v.fcst_len and m.sta_id = s.id and s.net = 'METAR' order by time, fcst_len, name;",
+    "subset": "METAR",
+    "template": {
+      "dataSourceId": "RRFS_dev1",
+      "docType": "model",
+      "model": "RRFS_dev1",
+      "fcstLen": "*fcst_len",
+      "fcstValidBeg": "*{ISO}time",
+      "fcstValidEpoch": "*time",
+      "id": "DD:V01:METAR:RRFS_dev1:*time:*fcst_len",
+      "subset": "METAR",
+      "type": "DD",
+      "version": "V01",
+      "data": {
+        "*name": {
+          "Ceiling": "*ceil",
+          "DewPoint": "*dp",
+          "RH": "*rh",
+          "Reported Time": "*time",
+          "Surface Pressure": "*slp",
+          "Temperature": "*temp",
+          "Visibility": "*vis",
+          "WD": "*wd",
+          "WS": "*ws",
+          "name": "*name"
+        }
+      }
+    }
+  }
+]
