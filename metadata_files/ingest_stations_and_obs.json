@@ -1,0 +1,67 @@
+[
+  {
+    "builder_type": "GsdObsBuilderV01",
+    "docType": "ingest",
+    "type": "MD",
+    "version": "V01",
+    "subType": "obs",
+    "id": "MD:V01:METAR:obs:ingest",
+    "cadence": 3600,
+    "delta": 1800,
+    "requires_time_interpolation": true,
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch};  select m.time, m.sta_id as madis_id, m.temp, m.dp, m.slp, m.wd, m.ws, c.ceil, v.vis100 as vis, m.sta_id, s.id, s.net, s.name, l.id , l.id, l.lat / 182 as lat, l.lon / 182 as lon, l.elev from madis3.obs m, madis3.stations as s, madis3.locations as l, ceiling2.obs c, visibility.obs v where 1 = 1 AND m.time >= @FirstTime and m.time <= @LastTime AND c.time >= @FirstTime AND c.time <= @LastTime AND v.time >= @FirstTime AND v.time <= @LastTime and m.time = c.time and m.time = v.time and m.sta_id = c.madis_id and m.sta_id = v.madis_id and m.sta_id = s.id and m.loc_id = l.id and s.net = 'METAR'",
+    "station_query": "SELECT raw {mdata.name, mdata.geo.lat, mdata.geo.lon} FROM mdata WHERE type='MD' AND docType='station' AND subset='METAR' AND version ='V01'",
+    "subset": "METAR",
+    "template": {
+      "correctedTime": "",
+      "dataSourceId": "MADIS3",
+      "docType": "obs",
+      "fcstValidBeg": "*{ISO}time",
+      "fcstValidEpoch": "*time",
+      "id": "DD:V01:METAR:obs:*time",
+      "subset": "METAR",
+      "type": "DD",
+      "version": "V01",
+      "data": {
+        "&get_name:*lat,*lon,*elev": {
+          "Ceiling": "*ceil",
+          "DewPoint": "*dp",
+          "Reported Time": "*time",
+          "Surface Pressure": "*slp",
+          "Temperature": "*temp",
+          "Visibility": "*vis",
+          "WD": "*wd",
+          "WS": "*ws",
+          "name": "*name"
+        }
+      }
+    }
+  },
+  {
+    "builder_type": "GsdStationsBuilderV01",
+    "type": "MD",
+    "version": "V01",
+    "docType": "ingest",
+    "subType": "stations",
+    "id": "MD:V01:METAR:stations:ingest",
+    "statement": "set @FirstTime = {first_epoch}; set @LastTime = {last_epoch};  select UNIX_TIMESTAMP() as updateTime, l.lat / 182 as lat, l.lon / 182 as lon, l.elev, l.last_time, s.id as station, l.id as location, s.name, s.disc as description, s.first, s.last from madis3.locations l, madis3.stations s, madis3.obs o where 1 = 1 and s.id = o.sta_id and l.id = o.loc_id and s.net = 'METAR' and s.name != '' and o.time >= @FirstTime - 1800 and o.time <= @LastTime + 1799 GROUP BY(s.name);",
+    "subset": "METAR",
+    "template": {
+      "description": "*description",
+      "docType": "station",
+      "firstTime": "*first",
+      "id": "MD:V01:METAR:station:*name",
+      "lastTime": "*last",
+      "name": "*name",
+      "subset": "METAR",
+      "type": "MD",
+      "updateTime": "*updateTime",
+      "version": "V01",
+      "elevation": "*elev",
+      "geo": {
+        "lat": "*lat",
+        "lon": "*lon"
+      }
+    }
+  }
+]
