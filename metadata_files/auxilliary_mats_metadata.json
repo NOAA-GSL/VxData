@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "MD:matsAux:COMMON:V01",
+    "type": "MD",
+    "docType": "matsAux",
+    "subset": "COMMON",
+    "version": "V01",
+    "updated": 1615377600,
+    "standardizedModelList": {
+      "RRFS_dev1": "RRFS_dev1",
+      "RRFS_dev1_iso": "RRFS_dev1_iso",
+      "RRFS_dev2": "RRFS_dev2",
+      "RRFS_dev2_iso": "RRFS_dev2_iso",
+      "RRFS_dev3": "RRFS_dev3",
+      "RRFS_dev3_iso": "RRFS_dev3_iso",
+      "RRFS_dev4": "RRFS_dev4",
+      "RRFS_dev4_iso": "RRFS_dev4_iso",
+      "RRFS_AK": "RRFS_AK",
+      "RRFS_AK_iso": "RRFS_AK_iso",
+      "RRFS_Hera_dev1": "RRFS_Hera_dev1",
+      "FV3_SAR_GSL": "RRFS_Hera_dev1",
+      "SAR_FV3_GSL": "RRFS_Hera_dev1",
+      "FV3_SAR_GSD": "RRFS_Hera_dev1",
+      "SAR_FV3_GSD": "RRFS_Hera_dev1",
+      "FV3_SAR": "RRFS_Hera_dev1",
+      "SAR_FV3": "RRFS_Hera_dev1",
+      "FV3SAR_GSL": "RRFS_Hera_dev1",
+      "SARFV3_GSL": "RRFS_Hera_dev1",
+      "FV3SAR_GSD": "RRFS_Hera_dev1",
+      "SARFV3_GSD": "RRFS_Hera_dev1",
+      "FV3SAR": "RRFS_Hera_dev1",
+      "SARFV3": "RRFS_Hera_dev1",
+      "fv3_sar_gsl": "RRFS_Hera_dev1",
+      "sar_fv3_gsl": "RRFS_Hera_dev1",
+      "fv3_sar_gsd": "RRFS_Hera_dev1",
+      "sar_fv3_gsd": "RRFS_Hera_dev1",
+      "fv3_sar": "RRFS_Hera_dev1",
+      "sar_fv3": "RRFS_Hera_dev1",
+      "RRFS_Hera_dev1_iso": "RRFS_Hera_dev1_iso",
+      "FV3_SAR_GSL_iso": "RRFS_Hera_dev1_iso",
+      "SAR_FV3_GSL_iso": "RRFS_Hera_dev1_iso",
+      "FV3_SAR_GSD_iso": "RRFS_Hera_dev1_iso",
+      "SAR_FV3_GSD_iso": "RRFS_Hera_dev1_iso",
+      "FV3_SAR_iso": "RRFS_Hera_dev1_iso",
+      "SAR_FV3_iso": "RRFS_Hera_dev1_iso",
+      "FV3SAR_GSL_iso": "RRFS_Hera_dev1_iso",
+      "SARFV3_GSL_iso": "RRFS_Hera_dev1_iso",
+      "FV3SAR_GSD_iso": "RRFS_Hera_dev1_iso",
+      "SARFV3_GSD_iso": "RRFS_Hera_dev1_iso",
+      "FV3SAR_iso": "RRFS_Hera_dev1_iso",
+      "SARFV3_iso": "RRFS_Hera_dev1_iso",
+      "fv3_sar_gsl_iso": "RRFS_Hera_dev1_iso",
+      "sar_fv3_gsl_iso": "RRFS_Hera_dev1_iso",
+      "fv3_sar_gsd_iso": "RRFS_Hera_dev1_iso",
+      "sar_fv3_gsd_iso": "RRFS_Hera_dev1_iso",
+      "fv3_sar_iso": "RRFS_Hera_dev1_iso",
+      "sar_fv3_iso": "RRFS_Hera_dev1_iso",
+      "RRFS_Hera": "RRFS_Hera",
+      "FV3_SAR_GSL_hrrr": "RRFS_Hera",
+      "SAR_FV3_GSL_hrrr": "RRFS_Hera",
+      "FV3_SAR_GSD_hrrr": "RRFS_Hera",
+      "SAR_FV3_GSD_hrrr": "RRFS_Hera",
+      "FV3_SAR_hrrr": "RRFS_Hera",
+      "SAR_FV3_hrrr": "RRFS_Hera",
+      "FV3SAR_GSL_hrrr": "RRFS_Hera",
+      "SARFV3_GSL_hrrr": "RRFS_Hera",
+      "FV3SAR_GSD_hrrr": "RRFS_Hera",
+      "SARFV3_GSD_hrrr": "RRFS_Hera",
+      "FV3SAR_hrrr": "RRFS_Hera",
+      "SARFV3_hrrr": "RRFS_Hera",
+      "fv3_sar_gsl_hrrr": "RRFS_Hera",
+      "sar_fv3_gsl_hrrr": "RRFS_Hera",
+      "fv3_sar_gsd_hrrr": "RRFS_Hera",
+      "sar_fv3_gsd_hrrr": "RRFS_Hera",
+      "fv3_sar_hrrr": "RRFS_Hera",
+      "sar_fv3_hrrr": "RRFS_Hera",
+      "RRFS_Hera_iso": "RRFS_Hera_iso",
+      "FV3_SAR_GSL_hrrr_iso": "RRFS_Hera_iso",
+      "SAR_FV3_GSL_hrrr_iso": "RRFS_Hera_iso",
+      "FV3_SAR_GSD_hrrr_iso": "RRFS_Hera_iso",
+      "SAR_FV3_GSD_hrrr_iso": "RRFS_Hera_iso",
+      "FV3_SAR_hrrr_iso": "RRFS_Hera_iso",
+      "SAR_FV3_hrrr_iso": "RRFS_Hera_iso",
+      "FV3SAR_GSL_hrrr_iso": "RRFS_Hera_iso",
+      "SARFV3_GSL_hrrr_iso": "RRFS_Hera_iso",
+      "FV3SAR_GSD_hrrr_iso": "RRFS_Hera_iso",
+      "SARFV3_GSD_hrrr_iso": "RRFS_Hera_iso",
+      "FV3SAR_hrrr_iso": "RRFS_Hera_iso",
+      "SARFV3_hrrr_iso": "RRFS_Hera_iso",
+      "fv3_sar_gsl_hrrr_iso": "RRFS_Hera_iso",
+      "sar_fv3_gsl_hrrr_iso": "RRFS_Hera_iso",
+      "fv3_sar_gsd_hrrr_iso": "RRFS_Hera_iso",
+      "sar_fv3_gsd_hrrr_iso": "RRFS_Hera_iso",
+      "fv3_sar_hrrr_iso": "RRFS_Hera_iso",
+      "sar_fv3_hrrr_iso": "RRFS_Hera_iso",
+      "RAP_GSL": "RAP_GSL",
+      "RAP_GSD": "RAP_GSL",
+      "RAP": "RAP_GSL",
+      "RR1h": "RAP_GSL",
+      "RR1h_prs": "RAP_GSL",
+      "RAP_GSL_iso": "RAP_GSL_iso",
+      "RAP_GSD_iso": "RAP_GSL_iso",
+      "RAP_iso": "RAP_GSL_iso",
+      "RAP_GSL_130": "RAP_GSL_130",
+      "RAP_GSD_130": "RAP_GSL_130",
+      "RAP_130": "RAP_GSL_130",
+      "RAP_GSL_iso_130": "RAP_GSL_iso_130",
+      "RAP_GSD_iso_130": "RAP_GSL_iso_130",
+      "RAP_iso_130": "RAP_GSL_iso_130",
+      "RAP_OPS": "RAP_OPS",
+      "RAP_NCEP_full": "RAP_OPS",
+      "RAP_OPER": "RAP_OPS",
+      "RAP_OPS_iso": "RAP_OPS_iso",
+      "RAP_OPS_130": "RAP_OPS_130",
+      "Rrrapx": "RAP_OPS_130",
+      "RAP_NCEP": "RAP_OPS_130",
+      "RAP_OPS_iso_130": "RAP_OPS_iso_130",
+      "isoRRrapx": "RAP_OPS_iso_130",
+      "RAP_OPS_242": "RAP_OPS_242",
+      "RAP_OPS_iso_242": "RAP_OPS_iso_242",
+      "RAP_smoke_GSL": "RAP_smoke_GSL",
+      "RAP_smoke_GSD": "RAP_smoke_GSL",
+      "RAP_smoke": "RAP_smoke_GSL",
+      "RAPv5_EMC": "RAPv5_EMC",
+      "RAPV5_EMC": "RAPv5_EMC",
+      "RAPv5_EMC_iso": "RAPv5_EMC_iso",
+      "RAPv5_EMC_130": "RAPv5_EMC_130",
+      "RAPv5_EMC_130_iso": "RAPv5_EMC_130_iso",
+      "RAPv5_NCO": "RAPv5_NCO",
+      "RAPV5_NCO": "RAPv5_NCO",
+      "RAPv5_NCO_130": "RAPv5_NCO_130",
+      "RAPv5_NCO_iso": "RAPv5_NCO_iso",
+      "RAPv5_NCO_130_iso": "RAPv5_NCO_130_iso",
+      "RAPnc_exp1": "RAPnc_exp1",
+      "RAP_RR1_exp": "RAPnc_exp1",
+      "RAPnc_iso_exp1": "RAPnc_iso_exp1",
+      "RAP_RR1_iso_exp": "RAPnc_iso_exp1",
+      "RAPnc_exp2": "RAPnc_exp2",
+      "RAP_RR2_exp": "RAPnc_exp2",
+      "RAPnc_iso_exp2": "RAPnc_iso_exp2",
+      "RAP_RR2_iso_exp": "RAPnc_iso_exp2",
+      "RAPnc_exp3": "RAPnc_exp3",
+      "RAP_RR3_exp": "RAPnc_exp3",
+      "RAPnc_iso_exp3": "RAPnc_iso_exp3",
+      "RAP_RR3_iso_exp": "RAPnc_iso_exp3",
+      "RAPnc_exp4": "RAPnc_exp4",
+      "RAP_RR4_exp": "RAPnc_exp4",
+      "RAPnc_iso_exp4": "RAPnc_iso_exp4",
+      "RAP_RR4_iso_exp": "RAPnc_iso_exp4",
+      "RAP_dev1": "RAP_dev1",
+      "RAP_dev2": "RAP_dev2",
+      "RAP_dev3": "RAP_dev3",
+      "RAP_devsat1": "RAP_devsat1",
+      "RAP_dev_sat": "RAP_devsat1",
+      "RAP_devsat2": "RAP_devsat2",
+      "RAP_dev_sat2": "RAP_devsat2",
+      "RAP_GSL_dev2": "RAP_GSL_dev2",
+      "RAP_GSD_dev2": "RAP_GSL_dev2",
+      "RR1h_dev2": "RAP_GSL_dev2",
+      "RAP_GSL_iso_dev": "RAP_GSL_iso_dev",
+      "RAP_GSD_iso_dev": "RAP_GSL_iso_dev",
+      "isoRR1h_dev": "RAP_GSL_iso_dev",
+      "RAP_GSL_130_dev": "RAP_GSL_130_dev",
+      "RAP_GSD_130_dev": "RAP_GSL_130_dev",
+      "RR1h_dev130": "RAP_GSL_130_dev",
+      "RR_dev1": "RR_dev1",
+      "RR_dev": "RR_dev1",
+      "RR_dev2": "RR_dev2",
+      "RR_noradar": "RR_noradar",
+      "RR_AIRS_v1": "RR_AIRS_v1",
+      "RR_AIRS_v2": "RR_AIRS_v2",
+      "HRRR_GSL": "HRRR_GSL",
+      "HRRR_GSD": "HRRR_GSL",
+      "HRRR": "HRRR_GSL",
+      "HRRR_ESRL": "HRRR_GSL",
+      "HRRR_GSL_iso": "HRRR_GSL_iso",
+      "HRRR_GSD_iso": "HRRR_GSL_iso",
+      "HRRR_iso": "HRRR_GSL_iso",
+      "HRRR_OPS": "HRRR_OPS",
+      "HRRR_OPER": "HRRR_OPS",
+      "HRRR_NCEP": "HRRR_OPS",
+      "HRRR_OPS_iso": "HRRR_OPS_iso",
+      "HRRR_AK_GSL": "HRRR_AK_GSL",
+      "HRRR_AK_GSD": "HRRR_AK_GSL",
+      "HRRR_AK": "HRRR_AK_GSL",
+      "HRRR_AK_GSL_iso": "HRRR_AK_GSL_iso",
+      "HRRR_AK_GSD_iso": "HRRR_AK_GSL_iso",
+      "HRRR_AK_iso": "HRRR_AK_GSL_iso",
+      "HRRR_AK_OPS": "HRRR_AK_OPS",
+      "HRRR_AK_EMC": "HRRR_AK_EMC",
+      "HRRR_OPS_AK": "HRRR_AK_EMC",
+      "HRRR_AK_OPS_iso": "HRRR_AK_OPS_iso",
+      "HRRR_AK_EMC_iso": "HRRR_AK_EMC_iso",
+      "HRRR_OPS_AK_iso": "HRRR_AK_EMC_iso",
+      "HRRR_HI_GSL": "HRRR_HI_GSL",
+      "HRRR_HI_GSD": "HRRR_HI_GSL",
+      "HRRR_HI": "HRRR_HI_GSL",
+      "HRRR_HI_GSL_iso": "HRRR_HI_GSL_iso",
+      "HRRR_HI_GSD_iso": "HRRR_HI_GSL_iso",
+      "HRRR_HI_iso": "HRRR_HI_GSL_iso",
+      "HRRR_HI_OPS": "HRRR_HI_OPS",
+      "HRRR_HI_EMC": "HRRR_HI_EMC",
+      "HRRR_OPS_HI": "HRRR_HI_EMC",
+      "HRRR_HI_OPS_iso": "HRRR_HI_OPS_iso",
+      "HRRR_HI_EMC_iso": "HRRR_HI_EMC_iso",
+      "HRRR_OPS_HI_iso": "HRRR_HI_EMC_iso",
+      "HRRR_smoke_GSL": "HRRR_smoke_GSL",
+      "HRRR_smoke_GSD": "HRRR_smoke_GSL",
+      "HRRR_smoke": "HRRR_smoke_GSL",
+      "HRRRv4_EMC": "HRRRv4_EMC",
+      "HRRRV4_EMC": "HRRRv4_EMC",
+      "HRRRv4_EMC_iso": "HRRRv4_EMC_iso",
+      "HRRR_AKv4_EMC": "HRRR_AKv4_EMC",
+      "HRRRv4_AK_EMC": "HRRR_AKv4_EMC",
+      "HRRRv4_EMC_AK": "HRRR_AKv4_EMC",
+      "HRRR_AKv4_EMC_iso": "HRRR_AKv4_EMC_iso",
+      "HRRRv4_AK_EMC_iso": "HRRR_AKv4_EMC_iso",
+      "HRRRv4_EMC_AK_iso": "HRRR_AKv4_EMC_iso",
+      "HRRRv4_NCO": "HRRRv4_NCO",
+      "HRRRV4_NCO": "HRRRv4_NCO",
+      "HRRRv4_NCO_iso": "HRRRv4_NCO_iso",
+      "HRRR_AKv4_NCO": "HRRR_AKv4_NCO",
+      "HRRRv4_AK_NCO": "HRRR_AKv4_NCO",
+      "HRRRv4_NCO_AK": "HRRR_AKv4_NCO",
+      "HRRR_AKv4_NCO_iso": "HRRR_AKv4_NCO_iso",
+      "HRRRv4_AK_NCO_iso": "HRRR_AKv4_NCO_iso",
+      "HRRRv4_NCO_AK_iso": "HRRR_AKv4_NCO_iso",
+      "HRRRE_mem0": "HRRRE_mem0",
+      "HRRRE_0": "HRRRE_mem0",
+      "HRRRE_mem1": "HRRRE_mem1",
+      "HRRRE_1": "HRRRE_mem1",
+      "HRRRE_mem2": "HRRRE_mem2",
+      "HRRRE_2": "HRRRE_mem2",
+      "HRRRE_mem3": "HRRRE_mem3",
+      "HRRRE_3": "HRRRE_mem3",
+      "HRRRE_mem4": "HRRRE_mem4",
+      "HRRRE_4": "HRRRE_mem4",
+      "HRRRE_mem5": "HRRRE_mem5",
+      "HRRRE_5": "HRRRE_mem5",
+      "HRRRE_mem6": "HRRRE_mem6",
+      "HRRRE_6": "HRRRE_mem6",
+      "HRRRE_mem7": "HRRRE_mem7",
+      "HRRRE_7": "HRRRE_mem7",
+      "HRRRE_mem8": "HRRRE_mem8",
+      "HRRRE_8": "HRRRE_mem8",
+      "HRRRE_mem9": "HRRRE_mem9",
+      "HRRRE_9": "HRRRE_mem9",
+      "HRRR_GSL_NREL": "HRRR_GSL_NREL",
+      "HRRR_GSD_NREL": "HRRR_GSL_NREL",
+      "HRRR_NREL": "HRRR_GSL_NREL",
+      "HRRR_GSL_WFIP2": "HRRR_GSL_WFIP2",
+      "HRRR_GSD_WFIP2": "HRRR_GSL_WFIP2",
+      "HRRR_WFIP2": "HRRR_GSL_WFIP2",
+      "HRRR_dev": "HRRR_dev",
+      "HRRR_dev1": "HRRR_dev1",
+      "HRRR_dev2": "HRRR_dev2",
+      "HRRR_dev3": "HRRR_dev3",
+      "HRRR_dev3_iso": "HRRR_dev3_iso",
+      "HRRR_AK_dev": "HRRR_AK_dev",
+      "HRRR_AK_dev_iso": "HRRR_AK_dev_iso",
+      "HRRR_dev1_radar": "HRRR_dev1_radar",
+      "HRRR_dev2_radar": "HRRR_dev2_radar",
+      "HRRR_radar": "HRRR_radar",
+      "HRRR_noradar": "HRRR_noradar",
+      "HRRR_rr_noradar": "HRRR_noradar",
+      "RUC13x_GSL": "RUC13x_GSL",
+      "RUC13x_GSD": "RUC13x_GSL",
+      "RUC": "RUC13x_GSL",
+      "Bak13": "RUC13x_GSL",
+      "RUC13x_GSL_iso": "RUC13x_GSL_iso",
+      "RUC13x_GSD_iso": "RUC13x_GSL_iso",
+      "isoBak13": "RUC13x_GSL_iso",
+      "RUC13x_OPS": "RUC13x_OPS",
+      "OP13": "RUC13x_OPS",
+      "RUC_OPER": "RUC13x_OPS",
+      "RUC13x_dev": "RUC13x_dev",
+      "RUC_dev": "RUC13x_dev",
+      "Dev13": "RUC13x_dev",
+      "RUC20x": "RUC20x",
+      "Bak20": "RUC20x",
+      "RUC13x_20x_dev": "RUC13x_20x_dev",
+      "Dev1320": "RUC13x_20x_dev",
+      "RUC13x_20x_dev_iso": "RUC13x_20x_dev_iso",
+      "isoDev1321": "RUC13x_20x_dev_iso",
+      "RTMA_RU_GSL": "RTMA_RU_GSL",
+      "RTMA_RU_GSD": "RTMA_RU_GSL",
+      "RTMA_GSL": "RTMA_RU_GSL",
+      "RTMA_GSD": "RTMA_RU_GSL",
+      "RTMA_HRRR15min": "RTMA_RU_GSL",
+      "RTMA_15min": "RTMA_RU_GSL",
+      "RTMA_RU_GSL_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_RU_GSD_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_GSL_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_GSD_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_15min_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_HRRR15min_dev1": "RTMA_RU_GSL_dev1",
+      "RTMA_3D_GSL": "RTMA_3D_GSL",
+      "RTMA_3D_GSD": "RTMA_3D_GSL",
+      "RUA": "RTMA_3D_GSL",
+      "RTMA_3D": "RTMA_3D_GSL",
+      "RTMA_3D_GSL_iso": "RTMA_3D_GSL_iso",
+      "RTMA_3D_GSD_iso": "RTMA_3D_GSL_iso",
+      "RTMA_3D_iso_GSL": "RTMA_3D_GSL_iso",
+      "RTMA_3D_iso_GSD": "RTMA_3D_GSL_iso",
+      "RTMA_3D_GSL_bl": "RTMA_3D_GSL_bl",
+      "RTMA_3D_GSD_bl": "RTMA_3D_GSL_bl",
+      "RTMA_GSL_3D_bl": "RTMA_3D_GSL_bl",
+      "RTMA_GSD_3D_bl": "RTMA_3D_GSL_bl",
+      "RTMA_3D_GSL_nb": "RTMA_3D_GSL_nb",
+      "RTMA_3D_GSD_nb": "RTMA_3D_GSL_nb",
+      "RTMA_GSL_3D_nb": "RTMA_3D_GSL_nb",
+      "RTMA_GSD_3D_nb": "RTMA_3D_GSL_nb",
+      "RTMA_3D_GSL_dev1": "RTMA_3D_GSL_dev1",
+      "RTMA_3D_GSD_dev1": "RTMA_3D_GSL_dev1",
+      "RTMA_3D_dev1": "RTMA_3D_GSL_dev1",
+      "RUA_dev1": "RTMA_3D_GSL_dev1",
+      "RTMA_3D_GSL_dev1_iso": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_GSD_dev1_iso": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_GSL_iso_dev1": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_GSD_iso_dev1": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_iso_GSL_dev1": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_iso_GSD_dev1": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_iso_dev1_GSL": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_iso_dev1_GSD": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_dev1_iso_GSL": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_dev1_iso_GSD": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_dev1_GSL_iso": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_dev1_GSD_iso": "RTMA_3D_GSL_dev1_iso",
+      "RTMA_3D_GSL_dev1_bl": "RTMA_3D_GSL_dev1_bl",
+      "RTMA_3D_GSD_dev1_bl": "RTMA_3D_GSL_dev1_bl",
+      "RTMA_GSL_3D_dev1_bl": "RTMA_3D_GSL_dev1_bl",
+      "RTMA_GSD_3D_dev1_bl": "RTMA_3D_GSL_dev1_bl",
+      "RTMA_3D_GSL_dev1_nb": "RTMA_3D_GSL_dev1_nb",
+      "RTMA_3D_GSD_dev1_nb": "RTMA_3D_GSL_dev1_nb",
+      "RTMA_GSL_3D_dev1_nb": "RTMA_3D_GSL_dev1_nb",
+      "RTMA_GSD_3D_dev1_nb": "RTMA_3D_GSL_dev1_nb",
+      "RTMA_3D_AK_GSL": "RTMA_3D_AK_GSL",
+      "RTMA_3D_AK_GSD": "RTMA_3D_AK_GSL",
+      "RTMA_3D_GSL_AK": "RTMA_3D_AK_GSL",
+      "RTMA_3D_GSD_AK": "RTMA_3D_AK_GSL",
+      "RTMA_3D_AK": "RTMA_3D_AK_GSL",
+      "RUA_AK": "RTMA_3D_AK_GSL",
+      "RTMA_3D_AK_GSL_iso": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_AK_GSD_iso": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_AK_iso_GSL": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_AK_iso_GSD": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_GSL_AK_iso": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_GSD_AK_iso": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_GSL_iso_AK": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_GSD_iso_AK": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_iso_AK_GSL": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_iso_AK_GSD": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_iso_GSL_AK": "RTMA_3D_AK_GSL_iso",
+      "RTMA_3D_iso_GSD_AK": "RTMA_3D_AK_GSL_iso",
+      "RTMA_OPS_hourly": "RTMA_OPS",
+      "RTMA_RU_OPS": "RTMA_RU_OPS",
+      "RTMA_OPS": "RTMA_RU_OPS",
+      "RTMA_15min_NCEP": "RTMA_RU_OPS",
+      "RTMA_HRRR15min_NCEP": "RTMA_RU_OPS",
+      "RTMA_3D_RU_GSL": "RTMA_3D_RU_GSL",
+      "RTMA_3D_RU_GSD": "RTMA_3D_RU_GSL",
+      "RTMA_3D_RU_GSL_iso": "RTMA_3D_RU_GSL_iso",
+      "RTMA_3D_RU_GSD_iso": "RTMA_3D_RU_GSL_iso",
+      "RTMA_3D_RU_EMC": "RTMA_3D_RU_EMC",
+      "RTMA_3D_RU_EMC_iso": "RTMA_3D_RU_EMC_iso",
+      "URMA_OPS": "URMA_OPS",
+      "NAM": "NAM",
+      "NAM_NEST": "NAM_NEST",
+      "NAM_NEST_AK": "NAM_NEST_AK",
+      "NAM_NEST_HI": "NAM_NEST_HI",
+      "NAM_NEST_OPS_227": "NAM_NEST_OPS_227",
+      "NAMnest_OPS_227": "NAM_NEST_OPS_227",
+      "NAM_OPS_iso_221": "NAM_OPS_iso_221",
+      "NAM_ceil": "NAM_ceil",
+      "NAMceil": "NAM_ceil",
+      "GLMP": "GLMP",
+      "NSSL_WRF": "NSSL_WRF",
+      "HIRES_ARW": "HIRES_ARW",
+      "HIRES_NMMB": "HIRES_NMMB",
+      "Persistence": "Persistence",
+      "persis": "Persistence",
+      "GFS": "GFS",
+      "GFS_4": "GFS",
+      "GFSDC": "GFS",
+      "GFS_iso": "GFS_iso",
+      "GFS_OPS_iso": "GFS_iso",
+      "FV3_CCPP_GSL": "FV3_CCPP_GSL",
+      "FV3_CCPP_GSD": "FV3_CCPP_GSL",
+      "fv3_ccpp_gsl": "FV3_CCPP_GSL",
+      "fv3_ccpp_gsd": "FV3_CCPP_GSL",
+      "fv3_ccpp_gslsuite": "FV3_CCPP_GSL",
+      "fv3_ccpp_gsdsuite": "FV3_CCPP_GSL",
+      "RT_CCPP_GSL": "FV3_CCPP_GSL",
+      "RT_CCPP_GSD": "FV3_CCPP_GSL",
+      "rt_ccpp_gsl": "FV3_CCPP_GSL",
+      "rt_ccpp_gsd": "FV3_CCPP_GSL",
+      "rt_ccpp_gslsuite": "FV3_CCPP_GSL",
+      "rt_ccpp_gsdsuite": "FV3_CCPP_GSL",
+      "FV3_CCPP_EMC": "FV3_CCPP_EMC",
+      "fv3_ccpp_emc": "FV3_CCPP_EMC",
+      "fv3_ccpp_emcsuite": "FV3_CCPP_EMC",
+      "RT_CCPP_EMC": "FV3_CCPP_EMC",
+      "rt_ccpp_emc": "FV3_CCPP_EMC",
+      "rt_ccpp_emcsuite": "FV3_CCPP_EMC",
+      "FV3_CCPP_GSL_L127": "FV3_CCPP_GSL_L127",
+      "FV3_CCPP_GSD_L127": "FV3_CCPP_GSL_L127",
+      "FV3_CCPP_GSL_L128": "FV3_CCPP_GSL_L127",
+      "FV3_CCPP_GSD_L128": "FV3_CCPP_GSL_L127",
+      "fv3_ccpp_gsl_L127": "FV3_CCPP_GSL_L127",
+      "fv3_ccpp_gsd_L127": "FV3_CCPP_GSL_L127",
+      "fv3_ccpp_gsl_L128": "FV3_CCPP_GSL_L127",
+      "fv3_ccpp_gsd_L128": "FV3_CCPP_GSL_L127",
+      "RT_CCPP_GSL_L127": "FV3_CCPP_GSL_L127",
+      "RT_CCPP_GSD_L127": "FV3_CCPP_GSL_L127",
+      "RT_CCPP_GSL_L128": "FV3_CCPP_GSL_L127",
+      "RT_CCPP_GSD_L128": "FV3_CCPP_GSL_L127",
+      "rt_ccpp_gsl_L127": "FV3_CCPP_GSL_L127",
+      "rt_ccpp_gsd_L127": "FV3_CCPP_GSL_L127",
+      "rt_ccpp_gsl_L128": "FV3_CCPP_GSL_L127",
+      "rt_ccpp_gsd_L128": "FV3_CCPP_GSL_L127",
+      "FV3_CCPP_GSL_C384": "FV3_CCPP_GSL_C384",
+      "FV3_CCPP_GSD_C384": "FV3_CCPP_GSL_C384",
+      "FV3_CCPP_C384": "FV3_CCPP_GSL_C384",
+      "FV3CCPP_C384": "FV3_CCPP_GSL_C384",
+      "fv3_ccpp_gsl_c384": "FV3_CCPP_GSL_C384",
+      "fv3_ccpp_gsd_c384": "FV3_CCPP_GSL_C384",
+      "fv3_ccpp_c384": "FV3_CCPP_GSL_C384",
+      "fv3ccpp_c384": "FV3_CCPP_GSL_C384",
+      "RT_CCPP_GSL_C384": "FV3_CCPP_GSL_C384",
+      "RT_CCPP_GSD_C384": "FV3_CCPP_GSL_C384",
+      "RT_CCPP_C384": "FV3_CCPP_GSL_C384",
+      "RTCCPP_C384": "FV3_CCPP_GSL_C384",
+      "rt_ccpp_gsl_c384": "FV3_CCPP_GSL_C384",
+      "rt_ccpp_gsd_c384": "FV3_CCPP_GSL_C384",
+      "rt_ccpp_c384": "FV3_CCPP_GSL_C384",
+      "rtccpp_c384": "FV3_CCPP_GSL_C384",
+      "FV3_CCPP_GSL_Chem": "FV3_CCPP_GSL_Chem",
+      "FV3_CCPP_GSD_Chem": "FV3_CCPP_GSL_Chem",
+      "FV3_CCPP_Chem": "FV3_CCPP_GSL_Chem",
+      "FV3CCPP_Chem": "FV3_CCPP_GSL_Chem",
+      "FV3_CCPP_GSL_CHEM": "FV3_CCPP_GSL_Chem",
+      "FV3_CCPP_GSD_CHEM": "FV3_CCPP_GSL_Chem",
+      "FV3_CCPP_CHEM": "FV3_CCPP_GSL_Chem",
+      "FV3CCPP_CHEM": "FV3_CCPP_GSL_Chem",
+      "fv3_ccpp_gsl_chem": "FV3_CCPP_GSL_Chem",
+      "fv3_ccpp_gsd_chem": "FV3_CCPP_GSL_Chem",
+      "fv3_ccpp_chem": "FV3_CCPP_GSL_Chem",
+      "fv3ccpp_chem": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_GSL_Chem": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_GSD_Chem": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_Chem": "FV3_CCPP_GSL_Chem",
+      "RTCCPP_Chem": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_GSL_CHEM": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_GSD_CHEM": "FV3_CCPP_GSL_Chem",
+      "RT_CCPP_CHEM": "FV3_CCPP_GSL_Chem",
+      "RTCCPP_CHEM": "FV3_CCPP_GSL_Chem",
+      "rt_ccpp_gsl_chem": "FV3_CCPP_GSL_Chem",
+      "rt_ccpp_gsd_chem": "FV3_CCPP_GSL_Chem",
+      "rt_ccpp_chem": "FV3_CCPP_GSL_Chem",
+      "rtccpp_chem": "FV3_CCPP_GSL_Chem",
+      "FV3_GFS_GSL": "FV3_GFS_GSL",
+      "FV3_GFS_GSD": "FV3_GFS_GSL",
+      "FV3GFS": "FV3_GFS_GSL",
+      "FV3_GFS_GF_GSL": "FV3_GFS_GF_GSL",
+      "FV3_GFS_GF_GSD": "FV3_GFS_GF_GSL",
+      "FV3GFS_GF": "FV3_GFS_GF_GSL",
+      "FV3_GFS_EMC": "FV3_GFS_EMC",
+      "FV3GFS_EMC": "FV3_GFS_EMC",
+      "FV3_GFS_GF_EMC": "FV3_GFS_GF_EMC",
+      "FV3GFS_GF_EMC": "FV3_GFS_GF_EMC",
+      "FIM": "FIM",
+      "FIM_4": "FIM",
+      "FIM8": "FIM",
+      "FIMDC": "FIM",
+      "FIM_iso": "FIM_iso",
+      "FIM_iso_4": "FIM_iso",
+      "FIM_130": "FIM_130",
+      "FIM_prs": "FIM_prs",
+      "FIM_HRRRphys": "FIM_HRRRphys",
+      "FIMX": "FIMX",
+      "FIMXDC": "FIMX",
+      "FIMXALT": "FIMXALT",
+      "FIMXALT_prs": "FIMXALT_prs",
+      "FIM7": "FIM7",
+      "FIM7DC": "FIM7",
+      "FIM9": "FIM9",
+      "FIM9DC": "FIM9",
+      "FIM9XALT": "FIM9XALT",
+      "FIMALT": "FIMALT",
+      "FIMALT_prs": "FIMALT_prs",
+      "suite4new": "suite4new",
+      "aug19_EMC": "aug19_EMC",
+      "aug19_EMCpGF": "aug19_EMCpGF",
+      "aug19_GSLv0": "aug19_GSLv0",
+      "aug19_GSDv0": "aug19_GSLv0",
+      "aug19_GSLv0mGF": "aug19_GSLv0mGF",
+      "aug19_GSDv0mGF": "aug19_GSLv0mGF"
+    },
+    "primaryModelOrders": {
+      "RRFS_dev1": {
+        "m_order": 10
+      },
+      "RRFS_dev1_iso": {
+        "m_order": 11
+      },
+      "RRFS_dev2": {
+        "m_order": 12
+      },
+      "RRFS_dev2_iso": {
+        "m_order": 13
+      },
+      "RRFS_dev3": {
+        "m_order": 14
+      },
+      "RRFS_dev3_iso": {
+        "m_order": 15
+      },
+      "RRFS_dev4": {
+        "m_order": 16
+      },
+      "RRFS_dev4_iso": {
+        "m_order": 17
+      },
+      "RRFS_AK": {
+        "m_order": 18
+      },
+      "RRFS_AK_iso": {
+        "m_order": 19
+      },
+      "RRFS_Hera": {
+        "m_order": 20
+      },
+      "RRFS_Hera_iso": {
+        "m_order": 21
+      },
+      "RRFS_Hera_dev1": {
+        "m_order": 22
+      },
+      "RRFS_Hera_dev1_iso": {
+        "m_order": 23
+      },
+      "RAP_GSL": {
+        "m_order": 25
+      },
+      "RAP_GSL_iso": {
+        "m_order": 26
+      },
+      "RAP_GSL_130": {
+        "m_order": 27
+      },
+      "RAP_GSL_iso_130": {
+        "m_order": 28
+      },
+      "RAP_OPS": {
+        "m_order": 35
+      },
+      "RAP_OPS_iso": {
+        "m_order": 36
+      },
+      "RAP_OPS_130": {
+        "m_order": 37
+      },
+      "RAP_OPS_iso_130": {
+        "m_order": 38
+      },
+      "RAP_OPS_242": {
+        "m_order": 39
+      },
+      "RAP_OPS_iso_242": {
+        "m_order": 40
+      },
+      "RAP_smoke_GSL": {
+        "m_order": 102
+      },
+      "RAPv5_EMC": {
+        "m_order": 110
+      },
+      "RAPv5_EMC_iso": {
+        "m_order": 120
+      },
+      "RAPv5_EMC_130": {
+        "m_order": 130
+      },
+      "RAPv5_EMC_130_iso": {
+        "m_order": 131
+      },
+      "RAPv5_NCO": {
+        "m_order": 132
+      },
+      "RAPv5_NCO_iso": {
+        "m_order": 133
+      },
+      "RAPv5_NCO_130": {
+        "m_order": 134
+      },
+      "RAPv5_NCO_130_iso": {
+        "m_order": 135
+      },
+      "RAPnc_exp1": {
+        "m_order": 140
+      },
+      "RAPnc_iso_exp1": {
+        "m_order": 150
+      },
+      "RAPnc_exp2": {
+        "m_order": 160
+      },
+      "RAPnc_iso_exp2": {
+        "m_order": 170
+      },
+      "RAPnc_exp3": {
+        "m_order": 180
+      },
+      "RAPnc_iso_exp3": {
+        "m_order": 190
+      },
+      "RAPnc_exp4": {
+        "m_order": 200
+      },
+      "RAPnc_iso_exp4": {
+        "m_order": 210
+      },
+      "RAP_dev1": {
+        "m_order": 220
+      },
+      "RAP_dev2": {
+        "m_order": 230,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_dev3": {
+        "m_order": 240,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_devsat1": {
+        "m_order": 250,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_devsat2": {
+        "m_order": 260,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_GSL_dev2": {
+        "m_order": 270,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_GSL_iso_dev": {
+        "m_order": 280,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RAP_GSL_130_dev": {
+        "m_order": 290,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RR_dev1": {
+        "m_order": 300,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RR_dev2": {
+        "m_order": 310,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RR_noradar": {
+        "m_order": 320,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RR_AIRS_v1": {
+        "m_order": 330,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RR_AIRS_v2": {
+        "m_order": 340,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_GSL": {
+        "m_order": 350
+      },
+      "HRRR_GSL_iso": {
+        "m_order": 360
+      },
+      "HRRR_OPS": {
+        "m_order": 370
+      },
+      "HRRR_OPS_iso": {
+        "m_order": 380
+      },
+      "HRRR_AK_GSL": {
+        "m_order": 390
+      },
+      "HRRR_AK_GSL_iso": {
+        "m_order": 395
+      },
+      "HRRR_AK_OPS": {
+        "m_order": 398
+      },
+      "HRRR_AK_OPS_iso": {
+        "m_order": 399
+      },
+      "HRRR_AK_EMC": {
+        "m_order": 400
+      },
+      "HRRR_AK_EMC_iso": {
+        "m_order": 401
+      },
+      "HRRR_HI_GSL": {
+        "m_order": 410
+      },
+      "HRRR_HI_GSL_iso": {
+        "m_order": 415
+      },
+      "HRRR_HI_OPS": {
+        "m_order": 418
+      },
+      "HRRR_HI_OPS_iso": {
+        "m_order": 419
+      },
+      "HRRR_HI_EMC": {
+        "m_order": 420
+      },
+      "HRRR_HI_EMC_iso": {
+        "m_order": 421
+      },
+      "HRRR_smoke_GSL": {
+        "m_order": 425
+      },
+      "HRRRv4_EMC": {
+        "m_order": 430
+      },
+      "HRRRv4_EMC_iso": {
+        "m_order": 431
+      },
+      "HRRR_AKv4_EMC": {
+        "m_order": 432
+      },
+      "HRRR_AKv4_EMC_iso": {
+        "m_order": 433
+      },
+      "HRRRv4_NCO": {
+        "m_order": 434
+      },
+      "HRRRv4_NCO_iso": {
+        "m_order": 435
+      },
+      "HRRR_AKv4_NCO": {
+        "m_order": 436
+      },
+      "HRRR_AKv4_NCO_iso": {
+        "m_order": 437
+      },
+      "HRRRE_mem0": {
+        "m_order": 439,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem1": {
+        "m_order": 440,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem2": {
+        "m_order": 450,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem3": {
+        "m_order": 460,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem4": {
+        "m_order": 470,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem5": {
+        "m_order": 480,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem6": {
+        "m_order": 490,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem7": {
+        "m_order": 500,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem8": {
+        "m_order": 510,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRRE_mem9": {
+        "m_order": 520,
+        "cycle_seconds": "{\"0\":[0,32400],\"1520553600\":[0,43200,54000,64800],\"1522281600\":[0,43200,64800,75600],\"1530576000\":[0,43200],\"1552003200\":[0,43200,64800],\"1584403200\":[0,21600,43200,64800]}"
+      },
+      "HRRR_GSL_NREL": {
+        "m_order": 530,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_GSL_WFIP2": {
+        "m_order": 540,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev": {
+        "m_order": 550,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev1": {
+        "m_order": 560,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev2": {
+        "m_order": 570,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev3": {
+        "m_order": 580
+      },
+      "HRRR_dev3_iso": {
+        "m_order": 581
+      },
+      "HRRR_AK_dev": {
+        "m_order": 584,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_AK_dev_iso": {
+        "m_order": 585,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev1_radar": {
+        "m_order": 590,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_dev2_radar": {
+        "m_order": 600,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_radar": {
+        "m_order": 601,
+        "domain": "R",
+        "currency": "P"
+      },
+      "HRRR_noradar": {
+        "m_order": 602,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RUC13x_GSL": {
+        "m_order": 630
+      },
+      "RUC13x_GSL_iso": {
+        "m_order": 640
+      },
+      "RUC13x_OPS": {
+        "m_order": 650
+      },
+      "RUC13x_dev": {
+        "m_order": 660,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RUC20x": {
+        "m_order": 670,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RUC13x_20x_dev": {
+        "m_order": 680,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RUC13x_20x_dev_iso": {
+        "m_order": 690,
+        "domain": "R",
+        "currency": "P"
+      },
+      "RTMA_RU_GSL": {
+        "m_order": 700
+      },
+      "RTMA_RU_GSL_dev1": {
+        "m_order": 710
+      },
+      "RTMA_3D_GSL": {
+        "m_order": 720
+      },
+      "RTMA_3D_GSL_iso": {
+        "m_order": 721
+      },
+      "RTMA_3D_GSL_bl": {
+        "m_order": 722
+      },
+      "RTMA_3D_GSL_nb": {
+        "m_order": 723
+      },
+      "RTMA_3D_GSL_dev1": {
+        "m_order": 724
+      },
+      "RTMA_3D_GSL_dev1_iso": {
+        "m_order": 725
+      },
+      "RTMA_3D_GSL_dev1_bl": {
+        "m_order": 726
+      },
+      "RTMA_3D_GSL_dev1_nb": {
+        "m_order": 727
+      },
+      "RTMA_3D_AK_GSL": {
+        "m_order": 728
+      },
+      "RTMA_3D_AK_GSL_iso": {
+        "m_order": 729
+      },
+      "RTMA_OPS": {
+        "m_order": 730
+      },
+      "RTMA_RU_OPS": {
+        "m_order": 731
+      },
+      "RTMA_3D_RU_GSL": {
+        "m_order": 736
+      },
+      "RTMA_3D_RU_GSL_iso": {
+        "m_order": 737
+      },
+      "RTMA_3D_RU_EMC": {
+        "m_order": 738
+      },
+      "RTMA_3D_RU_EMC_iso": {
+        "m_order": 739
+      },
+      "URMA_OPS": {
+        "m_order": 745
+      },
+      "NAM": {
+        "m_order": 749
+      },
+      "NAM_NEST": {
+        "m_order": 750
+      },
+      "NAM_NEST_AK": {
+        "m_order": 760
+      },
+      "NAM_NEST_HI": {
+        "m_order": 770
+      },
+      "NAM_NEST_OPS_227": {
+        "m_order": 780
+      },
+      "NAM_OPS_iso_221": {
+        "m_order": 790
+      },
+      "NAM_ceil": {
+        "m_order": 800
+      },
+      "GLMP": {
+        "m_order": 810
+      },
+      "NSSL_WRF": {
+        "m_order": 820
+      },
+      "HIRES_ARW": {
+        "m_order": 830
+      },
+      "HIRES_NMMB": {
+        "m_order": 840
+      },
+      "Persistence": {
+        "m_order": 850
+      },
+      "GFS": {
+        "m_order": 860
+      },
+      "GFS_iso": {
+        "m_order": 870
+      },
+      "FV3_CCPP_GSL": {
+        "m_order": 873
+      },
+      "FV3_CCPP_EMC": {
+        "m_order": 874
+      },
+      "FV3_CCPP_GSL_L127": {
+        "m_order": 875
+      },
+      "FV3_CCPP_GSL_C384": {
+        "m_order": 876
+      },
+      "FV3_CCPP_GSL_Chem": {
+        "m_order": 877
+      },
+      "FV3_GFS_GSL": {
+        "m_order": 880
+      },
+      "FV3_GFS_EMC": {
+        "m_order": 882
+      },
+      "FV3_GFS_GF_GSL": {
+        "m_order": 890
+      },
+      "FV3_GFS_GF_EMC": {
+        "m_order": 892
+      },
+      "FIM": {
+        "m_order": 900
+      },
+      "FIM_iso": {
+        "m_order": 910
+      },
+      "FIM_130": {
+        "m_order": 920
+      },
+      "FIM_prs": {
+        "m_order": 930
+      },
+      "FIM_HRRRphys": {
+        "m_order": 940
+      },
+      "FIMX": {
+        "m_order": 950
+      },
+      "FIMXALT": {
+        "m_order": 960
+      },
+      "FIMXALT_prs": {
+        "m_order": 970
+      },
+      "FIM7": {
+        "m_order": 980
+      },
+      "FIM9": {
+        "m_order": 990
+      },
+      "FIM9XALT": {
+        "m_order": 1000
+      },
+      "FIMALT": {
+        "m_order": 1010
+      },
+      "FIMALT_prs": {
+        "m_order": 1020
+      },
+      "suite4new": {
+        "m_order": 1030,
+        "cycle_seconds": "{\"0\":[0,43200]}"
+      },
+      "aug19_EMC": {
+        "m_order": 1031,
+        "cycle_seconds": "{\"0\":[0,43200]}"
+      },
+      "aug19_EMCpGF": {
+        "m_order": 1032,
+        "cycle_seconds": "{\"0\":[0,43200]}"
+      },
+      "aug19_GSLv0": {
+        "m_order": 1033,
+        "cycle_seconds": "{\"0\":[0,43200]}"
+      },
+      "aug19_GSLv0mGF": {
+        "m_order": 1034,
+        "cycle_seconds": "{\"0\":[0,43200]}"
+      }
+    },
+    "thresholdDescriptions": {
+      "ceiling": {
+        "50": "500 (ceiling <500 ft)",
+        "100": "1000 (ceiling <1000 ft)",
+        "300": "3000 (ceiling <3000 ft)",
+        "600": "60000 (ceiling <60000 ft -- any cloud)"
+      }
+    }
+  }
+]
